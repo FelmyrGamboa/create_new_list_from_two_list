@@ -27,6 +27,7 @@ def check_numbers_if_even():
         result_list.append()
 
 #Create a list that would store the results of the functions
+result_list = list()
 
 #Create the list of given numbers
 
