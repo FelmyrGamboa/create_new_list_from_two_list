@@ -14,17 +14,18 @@
 
 
 #Create a function that would check the list of odd numbers
-def check_numbers_if_odd():
+def check_numbers_if_odd(number_list):
 #Create a for loop with a condition if the number is odd
     for numbers in number_list():
-        if number_list % 2 != 0:
+        if numbers % 2 != 0:
             result_list.append()
 
 #Create a function that would check the list of even numbers
-def check_numbers_if_even():
+def check_numbers_if_even(number_list):
 #Create a for loop with a condition if the number is even
-    if number_list % 2 == 0:
-        result_list.append()
+    for numbers in number_list():
+        if numbers % 2 == 0:
+            result_list.append()
 
 #Create a list that would store the results of the functions
 result_list = list()
@@ -34,5 +35,7 @@ number_list_1 = [10, 20, 25, 30, 35]
 number_list_2 = [40, 45, 60, 75, 90]
 
 #Call out the function 
+check_numbers_if_odd(number_list_1)
+check_numbers_if_even(number_list_2)
 
 #Display the result
