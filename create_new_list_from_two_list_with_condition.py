@@ -30,6 +30,8 @@ def check_numbers_if_even():
 result_list = list()
 
 #Create the list of given numbers
+number_list_1 = [10, 20, 25, 30, 35]
+number_list_2 = [40, 45, 60, 75, 90]
 
 #Call out the function 
 
